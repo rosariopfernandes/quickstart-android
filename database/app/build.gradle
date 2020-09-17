@@ -4,6 +4,8 @@ apply plugin: 'org.jetbrains.kotlin.android.extensions'
 
 check.dependsOn 'assembleDebugAndroidTest'
 
+// Hoping it only builds the database module
+
 android {
     compileSdkVersion 30
 
